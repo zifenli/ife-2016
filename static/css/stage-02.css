@@ -1,0 +1,47 @@
+.m-tree .level {
+  width: 680px;
+  margin: 0 auto;
+}
+.m-tree .nodeWrap {
+  text-align: center;
+  display: inline-block;
+}
+.m-tree .nodeWrap .node {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: 10px;
+  line-height: 36px;
+  border-radius: 30px;
+  background-color: #eee;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.m-tree .nodeWrap .node.z-active {
+  background-color: cadetblue;
+}
+.m-tree .nodeWrap .node.noNode {
+  background-color: transparent;
+}
+.m-tree .btn-wrap {
+  margin: 68px auto 0;
+  text-align: center;
+  width: 680px;
+}
+.m-tree .btn-wrap .btn {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 4px;
+}
+.m-tree .btn-wrap .btn.btn-1 {
+  background-color: #aaa;
+}
+.m-tree .btn-wrap .btn.btn-2 {
+  background-color: #bbb;
+}
+.m-tree .btn-wrap .btn.btn-3 {
+  background-color: #ccc;
+}
